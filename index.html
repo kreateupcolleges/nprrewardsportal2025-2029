@@ -197,15 +197,15 @@
     IP1: { id: "181BiWFT57mywVrQ2hqP487JtFGLrR62oCnWih2Sn8TQ", name: "NPR_2025-2029_S2_IP1_RewardsSplit" }};
   CONFIG.INTERNAL_MARKS_SHEETS = {
     IP1: {
-      "Mech": { id: "1s-us9PLzLi8uysCD8s6JXk23LreznvVYmwdraL8Jo", name: "Mech" },
-      "IT": { id: "1m4aiNPNXRhucufOY5F_qCNX4QYoaCHYyxLFEtFN-M", name: "IT" },
-      "EEE": { id: "1eFf7Jvn92Nz9XP1GCKhRTP3mESfjOqcX7bm5--E0c", name: "EEE" },
-      "ECE": { id: "1NBeKoqwNXDzpzjNWBs8LWZwW_2AisXfi4GBhWV1M", name: "ECE" },
-      "CSE": { id: "1VTyeWIe7yNphfCGMIyywsjQRXJX2xp-sKZ8cMXpI", name: "CSE" },
-      "Civil": { id: "1ucNykwkmXnVTF13EEC-L-7Jd-CkQ6fswAAuRS_PyE", name: "Civil" },
-      "AIML": { id: "15SRlGKlCEe5Lxa_I7ta1jyA7D5OKSFW1VBYFfBMk", name: "AIML" },
-      "AI&DS": { id: "1RFrWnWHP8zuSLKX9Arra-IT0yRKICv_kUirRMUnE", name: "AI&DS" },
-      "Cyber Security": { id: "1Tw_PJX9rXKHP7jEiypEAVWdVkHiUiv---a8HQJ5k", name: "Cyber Security" }
+      "Mech": { id: "1aaZiqgn6akEz-Iq3GFbBMxujANMixActdU8i5H9yfvw", name: "Mech" },
+      "IT": { id: "1Rq9z_BdfKzXXVz9wUvhZvYhE6ihwEZmBIbRIaocASY0", name: "IT" },
+      "EEE": { id: "15-0CbIL7jmQveJop62OUfd-6WWQiU592GolU8y2oqxQ", name: "EEE" },
+      "ECE": { id: "1IXVW9A4H2MmIDEXgHEPgJemiNuzv8ZDBpWVGp2rF7sU", name: "ECE" },
+      "CSE": { id: "1UA8Raz3x8nZ3dkCEBu2_bUX4Fk91Mr9eS25x6iDM-XM, name: "CSE" },
+      "Civil": { id: "1GfenVTNTQ6iqd7eAJO4HEar9LyncuVS376xha6rIujI", name: "Civil" },
+      "AIML": { id: "16uERePkxpwf5XX0EdaYf8uR-2BSKLyUh8O2hvad_c3E", name: "AIML" },
+      "AI&DS": { id: "1xGm9KT92xx8NUrOR_yB-1AZcDXONbQek_wUcqaMQr2g", name: "AI&DS" },
+      "Cyber Security": { id: "1hYfLHStl0dCLT4ke5T8XpeLbH6lY205lY40iyAmY7bk", name: "Cyber Security" }
     }
   };
 
@@ -226,106 +226,116 @@
 
   // --- Hardcoded subject definitions (place after CONFIG) ---
   const deptSubjects = {
-  "AI&DS": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
-  ],
-
-  "EEE": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25EE101", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
-  ],
-
-  "AIML": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
+  "Civil": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA201", type: "Theory" },
+    { code: "25PH202", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE201", type: "Theory" },
+    { code: "25ME201", type: "Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25HS211", type: "Lab" },
+    { code: "25BE211", type: "Lab" }
   ],
 
   "CSE": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
+    { code: "25HS201", type: "Theory" },
+    { code: "25MAC01", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
     { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25HS211", type: "Lab" },
+    { code: "25BE211", type: "Lab" }
   ],
 
-  "Cyber Security": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
+  "EEE": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA202", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25BE203", type: "Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25BEC12", type: "Lab" },
+    { code: "25BE211", type: "Lab" },
+    { code: "25HS211", type: "Lab" }
   ],
 
   "ECE": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
-  ],
-
-  "IT": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BEC01", type: "Lab+Theory" },
-    { code: "25BS111", type: "Lab" }
-  ],
-
-  "Civil": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BS111", type: "Lab" },
-    { code: "25BEC12", type: "Lab" }
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA203", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25EC201", type: "Theory" },
+    { code: "25EC202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25EC211", type: "Lab" },
+    { code: "25HS211", type: "Lab" }
   ],
 
   "MECH": [
-    { code: "25HS101", type: "Theory" },
-    { code: "25MA101", type: "Theory" },
-    { code: "25PH101", type: "Theory" },
-    { code: "25CH101", type: "Theory" },
-    { code: "25BE101", type: "Theory" },
-    { code: "25HS102", type: "Theory" },
-    { code: "25BS111", type: "Lab" },
-    { code: "25BEC12", type: "Lab" }
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA201", type: "Theory" },
+    { code: "25PH202", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE201", type: "Theory" },
+    { code: "25ME201", type: "Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25HS211", type: "Lab" },
+    { code: "25BE211", type: "Lab" }
+  ],
+
+  "IT": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA201", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE201", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25HS211", type: "Lab" },
+    { code: "25BE211", type: "Lab" }
+  ],
+
+  "AI&DS": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA201", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BEC01", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25HS211", type: "Lab" },
+    { code: "25BE211", type: "Lab" }
+  ],
+
+  "AIML": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MAC01", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BEC01", type: "Lab+Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25BE211", type: "Lab" },
+    { code: "25HS211", type: "Lab" }
+  ],
+
+  "Cyber Security": [
+    { code: "25HS201", type: "Theory" },
+    { code: "25MA201", type: "Theory" },
+    { code: "25PH201", type: "Theory" },
+    { code: "25BS201", type: "Theory" },
+    { code: "25BEC01", type: "Theory" },
+    { code: "25BE202", type: "Lab+Theory" },
+    { code: "25HS202", type: "Theory" },
+    { code: "25BE211", type: "Lab" },
+    { code: "25HS211", type: "Lab" }
   ]
 };
-  const maxMap = { "Theory": 16, "Lab+Theory": 20, "Lab": 20 };
+  const maxMap = { "Theory": 8, "Lab+Theory": 10, "Lab": 10 };
 
   let activeInternal = CONFIG.defaultInternal || "IP1";
   let students = [], headers = [], headerMap = {};
